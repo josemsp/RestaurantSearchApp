@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
 import { withNavigation } from 'react-navigation'
 import ResultsDetail from '../components/ResultsDetail';
-
+//se agrego un comentario
 const ResultsList = ({ title, results, navigation }) => {
     if (!results.length) {
         return null;
